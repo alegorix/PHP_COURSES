@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="fr">
   <head>
@@ -25,15 +24,10 @@
         echo 'Je m\'appelle Eric mais tout le monde m\'appelle "Ricks" <br>';
 
         echo "Je m'appelle Eric mais tout le monde m'appelle \"Ricks\"<br>";
-
-
+      
         print 'Je m\'appelle Eric mais tout le monde m\'appelle "Ricks" <br>';
 
         print "Je m'appelle Eric mais tout le monde m'appelle \"Ricks\"<br>";
-
-
-
-
     ?>
 
     <p>Séparation</p>
@@ -83,9 +77,6 @@
 
         echo "<br>La variable \$vide2 contient une valeur de type ";
         echo gettype ($vide2);
-
-
-
 
     ?>
 <p>Séparation</p>
@@ -152,9 +143,6 @@
 
     $p = $z ** 4; // 2 exposant 4 = 2 * 2 * 2 * 2 = 16
     echo 'La variable $p stocke le résultat de 2 puissance 4 = '.$p.'<br>';
-
-
-
 
 ?>
 
