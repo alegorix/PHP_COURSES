@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cours PHP & MySQL</title>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <h1>Titre principal</h1>
+        <?php
+            $prenom = "Eric";
+            $age = 48; //$age stocke le nombre 48
+            
+            echo "La variable \$age contient : ";
+            echo $age;
+            echo "<br>";
+            
+            $age = 49; //$age stocke le nombre 49
+            echo "La variable \$age contient : ";
+            echo $age;
+        ?>
+        <p>Un paragraphe</p>
+    </body>
+</html>
